@@ -15,3 +15,7 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt how to setup and run LangGraph Studio on local device and in the studio, learnt how to use the UI to input a graph state, see the thread for the dataflow of the graph  
     Changes made: Since I'm using Groq as the client, I had to download the necessary dependencies as part of the setup after setting up the environment, made a .env file with the Groq and Langsmith API keys, changed the client in **router.py** and **agent.py** (located in the /studio directory) from ChatOpenAI() to ChatGroq() for tool binding.  
 
+**Video 4 - Chains:**  
+    Learnt how to use chat messages as our graph state, chat models as graph nodes, binding tools to the model and executing tool calls in graph nodes  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own tool calling example at the end  
+
