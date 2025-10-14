@@ -18,4 +18,5 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
 **Video 4 - Chains:**  
     Learnt how to use chat messages as our graph state, chat models as graph nodes, binding tools to the model and executing tool calls in graph nodes  
     Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own tool calling example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/chain.ipynb  
 
