@@ -20,3 +20,7 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own tool calling example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/chain.ipynb  
 
+**Video 5 - Router:**  
+    Learnt about the concept of router agent, where the chat model routes between a direct response or a tool call based upon the user input, specifically how the LLM is directing the control flow either by calling a tool or just responding directly.  
+    Changes madee: Used Groq's "openai/gpt-oss-120b" model, implemented my own router example at the end and pasted the screenshots of the LangGraph Studio visualization  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/router.ipynb  
