@@ -30,3 +30,7 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own agent example at the end and pasted the screenshots of the LangSmith traces  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/agent.ipynb  
 
+**Video 7 - Agent With Memory:**  
+    Learnt about how agents can store previous data in memory through persistence, where a checkpointer is used to automatically save the graph state after each step  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own agent with memory example at the end and pasted the screenshots of the LangGraph Studio visualization  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/agent_memory.ipynb  
