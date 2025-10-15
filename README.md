@@ -24,3 +24,9 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt about the concept of router agent, where the chat model routes between a direct response or a tool call based upon the user input, specifically how the LLM is directing the control flow either by calling a tool or just responding directly.  
     Changes madee: Used Groq's "openai/gpt-oss-120b" model, implemented my own router example at the end and pasted the screenshots of the LangGraph Studio visualization  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/router.ipynb  
+
+**Video 6 - Agent:**  
+    Learnt about agentic architecture, where it can pass the ToolMessage back to the LLM, which can either call another tool or respond directly. Also saw how we can see the traces of the whole conversation on Langsmith  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own agent example at the end and pasted the screenshots of the LangSmith traces  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/agent.ipynb  
+
