@@ -34,3 +34,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt about how agents can store previous data in memory through persistence, where a checkpointer is used to automatically save the graph state after each step  
     Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own agent with memory example at the end and pasted the screenshots of the LangGraph Studio visualization  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/agent_memory.ipynb  
+
+**Video 8 - Deployment:**  
+    Learnt on how to deploy our implemented Graph models locally to studio and to LangGraph Cloud  
+    Implemented code to deploy model locally: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/deployment.ipynb  
+    (Cannot deploy on Cloud since it is a paid feature)  
