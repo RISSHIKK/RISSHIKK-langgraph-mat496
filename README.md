@@ -39,3 +39,10 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt on how to deploy our implemented Graph models locally to studio and to LangGraph Cloud  
     Implemented code to deploy model locally: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%201/deployment.ipynb  
     (Cannot deploy on Cloud since it is a paid feature)  
+
+# Module 2
+
+**Video 1 - State Schema:**
+    Learnt how to define state schemas in LangGraph using three approaches - TypedDict, dataclass, and Pydantic. Also observed that Pydantic is unique because it includes built-in runtime validation, unlike the other two methods.  
+    Changes made: Implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/state_schema.ipynb  
