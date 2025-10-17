@@ -42,7 +42,12 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
 
 # Module 2
 
-**Video 1 - State Schema:**
+**Video 1 - State Schema:**  
     Learnt how to define state schemas in LangGraph using three approaches - TypedDict, dataclass, and Pydantic. Also observed that Pydantic is unique because it includes built-in runtime validation, unlike the other two methods.  
     Changes made: Implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/state_schema.ipynb  
+
+**Video 2 - State Reducers:**  
+    Learnt how to manage state updates in LangGraph using reducers, particularly focusing on how they resolve ambiguity in concurrent updates during branching. Learnt about the default overwriting behavior, the need for reducers when branching, how to use built-in reducers like "operator.add" and "add_messages" and how to create custom reducers for specific needs like handling None values or modifying messages.  
+    Changes made: Implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/state_reducers.ipynb  
