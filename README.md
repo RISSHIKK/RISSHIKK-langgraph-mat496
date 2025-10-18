@@ -61,3 +61,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt how to manage message history in LangGraph using different techniques: reducing the number of messages, filtering messages to select a subset, and trimming messages based on token limits. These methods are crucial for building efficient chatbots by controlling the input provided to the language model.  
     Changes made: Implemented my own example at the end and added screenshots of Langsmith traces of my implementation  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/trim_filter_messages.ipynb  
+    
+**Video 5 - Chatbot w/ Summarizing Messages and Memory**  
+    Learnt building a chatbot with LangGraph that uses message summarization to manage conversation length. It also shows how to add memory to the chatbot using LangGraph's built-in persistence mechanism with thread IDs.  
+    Changes made: Implemented my own example at the end and added screenshots of Langsmith traces to show the working of persistence and summarization  
+    Tweaked code: ttps://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/chatbot_summarization.ipynb  
