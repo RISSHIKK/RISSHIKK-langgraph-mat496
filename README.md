@@ -57,3 +57,7 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Changes made: Implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/multiple_schemas.ipynb  
     
+**Video 4 - Trim and Filter Messages**  
+    Learnt how to manage message history in LangGraph using different techniques: reducing the number of messages, filtering messages to select a subset, and trimming messages based on token limits. These methods are crucial for building efficient chatbots by controlling the input provided to the language model.  
+    Changes made: Implemented my own example at the end and added screenshots of Langsmith traces of my implementation  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/trim_filter_messages.ipynb  
