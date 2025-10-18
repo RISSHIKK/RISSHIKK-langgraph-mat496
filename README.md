@@ -65,4 +65,9 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
 **Video 5 - Chatbot w/ Summarizing Messages and Memory**  
     Learnt building a chatbot with LangGraph that uses message summarization to manage conversation length. It also shows how to add memory to the chatbot using LangGraph's built-in persistence mechanism with thread IDs.  
     Changes made: Implemented my own example at the end and added screenshots of Langsmith traces to show the working of persistence and summarization  
-    Tweaked code: ttps://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/chatbot_summarization.ipynb  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/chatbot_summarization.ipynb  
+
+**Video 6 - Chatbot w/ Summarizing Messages and External Memory**  
+    Learnt building a LangGraph chatbot with persistent memory using an external DB (Sqlite) checkpointer. It shows how to define the conversation state, create nodes for interaction and summarization, and compile a graph that saves and loads the conversation history from a database.  
+    Changes made: Tried my own set of prompts on the graph and verified the summarization and remembering past chats through external DB (PostGres) memory  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/chatbot_external_memory.ipynb  
