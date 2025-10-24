@@ -71,3 +71,10 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt building a LangGraph chatbot with persistent memory using an external DB (Sqlite) checkpointer. It shows how to define the conversation state, create nodes for interaction and summarization, and compile a graph that saves and loads the conversation history from a database.  
     Changes made: Tried my own set of prompts on the graph and verified the summarization and remembering past chats through external DB (PostGres) memory  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%202/chatbot_external_memory.ipynb  
+
+# Module 3
+
+**Video 1 - Streaming:**  
+    Learnt how to set up a LangGraph chatbot with memory and how to stream outputs from the graph during execution using different streaming modes (values, updates, and astream_events) to observe the graph's state and chat model tokens.  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/streaming-interruption.ipynb  
