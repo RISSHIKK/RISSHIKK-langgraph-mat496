@@ -78,3 +78,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt how to set up a LangGraph chatbot with memory and how to stream outputs from the graph during execution using different streaming modes (values, updates, and astream_events) to observe the graph's state and chat model tokens.  
     Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/streaming-interruption.ipynb  
+
+**Video 2 - Breakpoints:**  
+    Learnt how to use breakpoints in LangGraph to pause the execution of your agent's graph at specific nodes, enabling human-in-loop workflows like user approval of actions before they are executed.  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/breakpoints.ipynb  
