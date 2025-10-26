@@ -93,3 +93,10 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt the concept of dynamic breakpoints in LangGraph using NodeInterrupt. It demonstrates how to interrupt the graph execution conditionally based on the state, inspect and modify the state after an interrupt, and then resume the graph run with the updated state, enabling human-in-loop workflows for approval, debugging, and editing.  
     Changes made: Implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/dynamic-breakpoints.ipynb  
+
+**Video 5 - Time Travel:**  
+    Learnt about the "time travel" capabilities of LangGraph. It shows how to browse the history of an agent's execution, replay the execution from a previous state, and also fork the execution by modifying a past state and running from there. These features are useful for debugging and understanding the agent's behavior.  
+    Changes made: Included screenshots of implementing forking the tools in 'agent' graph in LangGraph studio, also implemented my own example of forking and replaying states of a custom graph I created  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/time-travel.ipynb  
+
+# Module 4
