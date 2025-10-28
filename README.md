@@ -100,3 +100,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%203/time-travel.ipynb  
 
 # Module 4
+
+**Video 1 - Parallelization:**  
+    Learnt about parallel node execution in LangGraph. It demonstrates how to run multiple nodes concurrently and how to manage state updates from these parallel branches using custom reducers and waiting mechanisms.  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, added screenshots of the working of graph in LangGraph studio, implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/parallelization.ipynb  
