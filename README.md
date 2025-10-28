@@ -105,3 +105,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt about parallel node execution in LangGraph. It demonstrates how to run multiple nodes concurrently and how to manage state updates from these parallel branches using custom reducers and waiting mechanisms.  
     Changes made: Used Groq's "openai/gpt-oss-120b" model, added screenshots of the working of graph in LangGraph studio, implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/parallelization.ipynb  
+
+**Video 2 - Sub-graphs:**  
+    Learnt the concept of sub-graphs in LangGraph. It demonstrates how to create reusable components (sub-graphs) with their own states and logic, and then integrate them into a larger parent graph to handle complex workflows like parallel processing of data.  
+    Changes made: Implemented example of my own, added screenshots of Langsmith traces and graph visualized on LangGraph Studio  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/sub-graph.ipynb  
