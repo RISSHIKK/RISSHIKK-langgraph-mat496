@@ -110,3 +110,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt the concept of sub-graphs in LangGraph. It demonstrates how to create reusable components (sub-graphs) with their own states and logic, and then integrate them into a larger parent graph to handle complex workflows like parallel processing of data.  
     Changes made: Implemented example of my own, added screenshots of Langsmith traces and graph visualized on LangGraph Studio  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/sub-graph.ipynb  
+
+**Video 3 - Map-reduce:**  
+    Learnt the map-reduce concept using the LangGraph library. It demonstrates how to break down a task into smaller, parallelizable sub-tasks (map) and then combine the results (reduce) within a stateful graph structure, first with a joke generation example and then with a text summarization example.  
+    Changes made: Used Groq's "openai/gpt-oss-120b" model, added screenshots of the traces observed on LangSmith and the working of graph in LangGraph studio, implemented my own example at the end  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/map-reduce.ipynb  
