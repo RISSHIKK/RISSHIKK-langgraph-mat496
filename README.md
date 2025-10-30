@@ -115,3 +115,8 @@ All that I have learnt from the course "Foundation: Introduction to LangGraph" b
     Learnt the map-reduce concept using the LangGraph library. It demonstrates how to break down a task into smaller, parallelizable sub-tasks (map) and then combine the results (reduce) within a stateful graph structure, first with a joke generation example and then with a text summarization example.  
     Changes made: Used Groq's "openai/gpt-oss-120b" model, added screenshots of the traces observed on LangSmith and the working of graph in LangGraph studio, implemented my own example at the end  
     Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/map-reduce.ipynb  
+
+**Video 4 - Research Assistant:**  
+    Learnt building a lightweight, multi-agent research assistant using LangGraph. It demonstrates key LangGraph concepts like memory, human-in-the-loop interaction, and controllability to customize the research process and generate a final report from parallelized expert interviews.  
+    Changes made: Used Groq's "openai/gpt-oss-120b" and "llama-3.1-8b-instant" model, added screenshots of LangSmith traces that shows the outputs produced at write_section, finalize_report, etc.  
+    Tweaked code: https://github.com/RISSHIKK/RISSHIKK-langgraph-mat496/blob/main/Module%204/research_assistant.ipynb  
